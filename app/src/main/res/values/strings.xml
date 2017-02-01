@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Turnos</string>
+
+
+    <string name="titulo"><b> Su turno </b></string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

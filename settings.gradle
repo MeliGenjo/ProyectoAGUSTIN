@@ -1,0 +1,2 @@
+include ':app',':ksoap2-android-assembly-3.0.0-jar-with-dependencies'
+project(':ksoap2-android-assembly-3.0.0-jar-with-dependencies').projectDir = new File('libs/ksoap2-android-assembly-3.0.0-jar-with-dependencies')

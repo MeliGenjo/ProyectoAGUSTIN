@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:background="@color/gris">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sistema integral de gestión de turnos"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/my"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:id="@+id/image"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ticketera"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <!-- Email Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario "
+        android:singleLine="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Email input text -->
+    <EditText android:id="@+id/txtUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"/>
+
+    <!-- Password Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña "
+        android:layout_marginBottom="5dip"/>
+
+    <!-- Password input text -->
+    <EditText android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:password="true"
+        android:singleLine="true"/>
+
+    <!-- Login button -->
+    <Button android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:background="@color/naranja"/>
+
+</LinearLayout>
